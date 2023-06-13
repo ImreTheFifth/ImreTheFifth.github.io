@@ -47,7 +47,7 @@ img {
 
 @media screen and (max-width: 800px) {
     .home {
-        background-size: auto 100vh;
+        
     }
 }
 
@@ -57,6 +57,7 @@ img {
         margin-top: 20px;
         font-size: 14px;
         letter-spacing: 1px;
+        background-size: 100vw 100vh;
     }
 
     .title {
