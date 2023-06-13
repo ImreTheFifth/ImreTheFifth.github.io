@@ -8,11 +8,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
  }
 
 .home {
-    background: url("bg3.jpg");
+    background: #eec8ce url("bg3.jpg") center center fixed;
     background-size: 100vw;
     font-size: 35px;
     margin: 10vh 70px 0;
     font-family: 'Great Vibes';
+    background-repeat: no-repeat;
     letter-spacing: 3px;
 }
 
@@ -43,13 +44,18 @@ img {
     margin: 20px auto 0;
 }
 
+@media screen and (max-width: 800px) {
+    .home {
+        background-size: auto 100vh;
+    }
+}
+
 
 @media screen and (max-width: 980px) {
     .home {
         margin-top: 20px;
         font-size: 14px;
         letter-spacing: 1px;
-        background-size: 100vw 100vh;
     }
 
     .title {
