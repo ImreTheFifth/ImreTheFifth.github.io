@@ -45,12 +45,16 @@ img {
     margin: 20px auto 0;
 }
 
+
+
+
+
 @media screen and (max-width: 980px) {
     .home {
         margin-top: 20px;
         font-size: 14px;
         letter-spacing: 1px;
-        background-size: 100vw 100vh;
+       /* background-size: 100vw 100vh;*/
     }
 
     .title {
@@ -83,3 +87,9 @@ img {
         flex-direction: row;
     }
   }
+
+  @media screen and (max-width: 650px) {
+    .home {
+        background-size: 100vw 100vh;
+    }    
+}
