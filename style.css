@@ -8,7 +8,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
  }
 
 .home {
-    background: #eec8ce url("bg3.jpg");
+    background: #eec8ce url("50.jpg");
     background-clip: padding-box;
     background-size: 100vw;
     font-size: 35px;
@@ -90,6 +90,6 @@ img {
 
   @media screen and (max-width: 650px) {
     .home {
-        background-size: 100vw 100vh;
+        background-size: 100vw 110vh;
     }    
 }
