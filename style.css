@@ -90,6 +90,6 @@ img {
 
   @media screen and (max-width: 650px) {
     .home {
-        background-size: 20em;
+        background-size: 50em;
     }    
 }
